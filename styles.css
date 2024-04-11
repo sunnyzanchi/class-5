@@ -1,0 +1,32 @@
+/* TODO: fix the CPU div being smaller than the player div */
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+main > div {
+  align-items: space-between;
+  background: gray;
+  justify-content: center;
+  height: 80%;
+  width: 40vw;
+}
+
+.selection {
+  display: grid;
+  place-items: center;
+  height: 50%;
+  font-size: 3rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  font-size: 2rem;
+}
